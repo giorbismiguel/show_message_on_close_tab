@@ -1,7 +1,9 @@
 import { Result, Button } from 'antd';
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
-import { ItemType, items } from '../dropdownMenu/menuItems';
+import { ItemType } from '../../interfaces';
+import { items } from '../../constants';
+
 
 function getElementsWithKey(elements: ItemType[]) {
   const result: ItemType[] = [];

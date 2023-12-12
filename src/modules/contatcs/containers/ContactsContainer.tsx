@@ -11,7 +11,7 @@ const ContactsContainer = () => {
 
   return (
     <div>
-      <Button onClick={handleOnClick} />
+      <Button onClick={handleOnClick} >Active Contact</Button>
     </div>
   );
 };

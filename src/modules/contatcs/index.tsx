@@ -6,6 +6,7 @@ const ContactRoutes = () => (
   <Routes>
     <Route path='/'>
       <Route path='/' element={<PageContacts />} />
+      <Route path='/create' element={<PageContacts />} />
       <Route path='*' element={<NotFoundPage />} />
     </Route>
   </Routes>

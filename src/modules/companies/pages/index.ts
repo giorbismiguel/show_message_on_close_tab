@@ -1,6 +1,13 @@
-import { lazy } from 'react';
+import { lazy } from "react";
 
-const loadContact = () => import('./PageCompanies');
-const PageContacts = lazy(loadContact);
+const loadCompanies = () => import("./CompaniesPage");
+export const PageCompanies = lazy(loadCompanies);
 
-export default PageContacts;
+const loadCreateCompany = () => import("./CreatePage");
+export const CreateCompany = lazy(loadCreateCompany);
+
+const loadEditCompany = () => import("./EditPage");
+export const EditCompany = lazy(loadEditCompany);
+
+const loadDetailCompany = () => import("./DetailPage");
+export const DetailCompany = lazy(loadDetailCompany);

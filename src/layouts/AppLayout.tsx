@@ -10,12 +10,12 @@ const navigation = [
         label: 'Home'
     },
     {
-        key: '/one',
-        label: 'Page One'
+        key: '/companies',
+        label: 'Companies'
     },
     {
-        key: '/two',
-        label: 'Page Two'
+        key: '/contacts',
+        label: 'Contacts'
     }
     
 ];
