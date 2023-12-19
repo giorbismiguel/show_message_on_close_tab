@@ -1,11 +1,16 @@
 import React from 'react'
-import CompanyCreateContainer from '../containers/CompanyCreateContainer';
-
+import CompaniesProvider from '../contexts/CompaniesContext';
+import CompaniesListContainer from '../containers/CompaniesListContainer';
+import ListLayout from '../../../layouts/ListLayout';
 
 
 const CompaniesPage = () => {
-  return  (
-    <CompanyCreateContainer />
+  return (
+    <ListLayout>
+      <CompaniesProvider>
+        <CompaniesListContainer />
+      </CompaniesProvider>
+    </ListLayout>
   );
 }
 

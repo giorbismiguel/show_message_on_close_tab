@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
-import { useContactsContext } from '../contexts/contacts.contents';
+import { useContactsContext } from '../contexts/useContactsContext';
 
 const ContactsContainer = () => {
   const { activeContactHandler } = useContactsContext();

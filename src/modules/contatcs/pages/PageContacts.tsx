@@ -1,5 +1,5 @@
 import ContactsContainer from '../containers/ContactsContainer';
-import ContactsContextProvider from '../contexts/contacts.contents';
+import ContactsContextProvider from '../contexts/ContactsContext';
 
 const PageContacts = () => (
   <ContactsContextProvider>
